@@ -5,7 +5,7 @@ function isEnoughCapacity(products, containerSize) {
     for (const key of objKeys) {
         total += products[key];
     }
-    console.log(total);
+    
     return total <= containerSize;
 }
 
